@@ -1,0 +1,4 @@
+#!/bin/bash
+# This script does apt update and copy the ssh key info to dest servers
+sudo apt-get update
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCvp14Iiy59c2qr97oPevvsXUvZzIv+YUNz0DqOK9inwgqEQQK0ZnMq0zm9IXaW3NxJuijIXPvAFbDDupYz1kSmWk88dcbzOlifCsdngtdqICL9Acguyz/UCHS3JVL0fHs7SJGS3GlKzwUeTJQz0BwTrtXvArBHk9rIe2vk7o7PQtdnKVbk4E2XIp0sg337zufbQPqwWPAHC0uk+HjystlVH2/r4VPKrO8Z7+zUBY+ZN+q7agDPUGaaGp/W9cB9QQ2MV1FjLH8CmND20QbUmb/PvOoRDqcXmWDR2nCrkVSn0ZgNAsYnEWXNBeoglacdAwdkfDpHRwQgJ86WY7ubHjx4Oty5hZ3zV7DSJxz/bsDEXSQnOgJFxuwg1p+gv2ArY+ihqHSY6iiu1X8+ym6MSoiJtWPyARpfyB5axfoiSvFCq4aNgv5dRwU7GgBGPH2FqXH49eFP2wfd9WbjknCK+0HufNpjinQMSfBeOOfbJrbGvn/RfbC614bBFAFiKi/rtRE= ubuntu@ip-172-31-5-251" >> /home/ubuntu/.ssh/authorized_keys
